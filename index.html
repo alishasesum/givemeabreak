@@ -4,41 +4,31 @@
     <meta charset="utf-8">
     <title>Give Me a Break</title>
       <link rel="stylesheet" type="text/css" href="css/styles.css">
-      <style>
-      img {
-        display: flex;
-        justify-content: space-around;
-        flex-direction:row;
-        padding: 50px;
-        margin: 0 auto;
-        border-radius: 150px;
-      }
-      h2 {
-      display: flex;
-      justify-content: flex-start;
-      justify-content: space-around;
-      flex-direction: row;
-      }
-      h1 {
-        display: flex;
-        justify-content: center;
-      }
-      </style>
   </head>
   <body>
-    <div>
-      <img src="logo.png" alt="Give Me a Break Logo" width="200">
+    <div class="topnav">
+  <ul>
+    <a class="active" href="#home">Home</a>
+    <li><a href="#about">About</a></li>
+    <li><a href="#submitahack">Submit A Hack</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+</div>
+
+    <div class="intro">
+      <img src="logo.png" alt="Give Me a Break Logo" width="200" class="intro">
     <h1> <em>"Making Adulting Easier" </em> </h1>
   </br>
   </br>
     </div>
     <div class="options">
       <h2>Life Hacks</h2>
-      <img src="./lifehacks.jpeg" alt="some eggs" width="200px">
       <h2>Get In Touch</h2>
-      <img src="./getintouch.jpeg" alt="Submit a hack" width="200px">
       <h2>Procrastination Central</h2>
-      <img src="./procrastination.jpeg" alt="Submit a hack" width="200px">
+      <img src="./lifehacks.jpeg" alt="some eggs" width="200px" id="hack">
+      <img src="./getintouch.jpeg" alt="Submit a hack" width="200px" id="contact">
+      <img src="./procrastination.jpeg" alt="Submit a hack" width="200px" id="procrastinate">
     </div>
 
   </body>
