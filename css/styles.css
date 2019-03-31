@@ -32,7 +32,7 @@
   input, textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
-    font: 1em helvetica;
+    font: 16 px helvetica;
     color: green;
 
     /* To give the same size to all text fields */
@@ -45,11 +45,20 @@
     border-radius: 3%;
   }
 
+  .checkboxes input{
+ margin: 0 5px 0 20px;
+}
+
+    .checkboxes {
+      text-align:center;
+     }
+
   input:focus, textarea:focus {
     /* To give a little highlight on active elements */
     border-color: #d2e4bb;
     color: green;
   }
+
 
   textarea {
     /* To properly align multiline text fields with their labels */
