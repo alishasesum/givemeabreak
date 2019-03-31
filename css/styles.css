@@ -118,4 +118,49 @@
     transform: translate(-50%, -50%);
   }
 
+  .topnav li {
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration-color: #black;
+  }
+
+  .topnav li a{
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: helvetica;
+  }
+
+  .topnav ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+.active {
+  background-color: #a5e497;
+  color: white;
+  border-left-style: groove;
+  box-decoration-break: clone;
+
+}
+
+.topnav li a:hover {
+  background-color: #a5e497;
+
+}
+
+.topnav img {
+  padding-top: 0;
+  display: inline-block;
+}
     </style>
