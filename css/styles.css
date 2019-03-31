@@ -78,12 +78,6 @@
     font-size: 16px;
   }
 
-      /* To give the same size to all text fields */
-      width: 60%;
-  @ -73,40 +74,3 @@
-      position: sticky;
-      top: 0;
-    }
 
     .topnav li {
       display: inline;
