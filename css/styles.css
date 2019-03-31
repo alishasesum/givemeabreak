@@ -64,13 +64,12 @@
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: .5em;
-  }
-
-  .topnav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+    background-color: #ffe497;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
   }
