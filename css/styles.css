@@ -1,6 +1,6 @@
 <style>
   body {
-  color: #ffffe6;
+  
   font-family: helvetica;
 }
 
@@ -16,6 +16,7 @@
     font-family: helvetica;
   }
 
+
   form div + div {
     margin-top: 1em;
   }
@@ -23,7 +24,7 @@
   label {
     /* To make sure that all labels have the same size and are properly aligned */
     display: inline-block;
-    width: 90px;
+    width: 30%;
     text-align: right;
     font-family: helvetica;
     color:green;
@@ -32,11 +33,11 @@
   input, textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
-    font: 16 px helvetica;
+    font: 1em helvetica;
     color: green;
 
     /* To give the same size to all text fields */
-    width: 60%;
+    width:30%;
     box-sizing: border-box;
 
 
@@ -45,13 +46,7 @@
     border-radius: 3%;
   }
 
-  .checkboxes input{
- margin: 0 5px 0 20px;
-}
 
-    .checkboxes {
-      text-align:center;
-     }
 
   input:focus, textarea:focus {
     /* To give a little highlight on active elements */
@@ -80,7 +75,7 @@
     background-color: white;
     color: green;
     border: 3px solid #ffe497;
-    padding: 15px 32px;
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -88,7 +83,7 @@
   }
 
 
-    .topnav li {
+  .topnav li {
       display: inline;
     }
 
