@@ -97,6 +97,8 @@
   button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
+
+  position:relative;
     margin-left: .5em;
     background-color: white;
     color: green;
