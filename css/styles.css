@@ -194,4 +194,14 @@ h1 {
 .container2 {
   text-align: center;
 }
+
+/* Style for the overlay images with text */
+.container3 {
+  display: relative
+  justify-content:center;
+  justify-content: space-between;
+}
+
+
+
     </style>
