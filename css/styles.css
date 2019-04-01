@@ -192,14 +192,16 @@ h1 {
 }
 
 .container2 {
+  position: relative;
   text-align: center;
+  background-color: none;
 }
 
 /* Style for the overlay images with text */
 .container3 {
-  display: relative
-  justify-content:center;
-  justify-content: space-between;
+  display: relative;
+  justify-content: center;
+  justify-content: space-around;
 }
 
 
