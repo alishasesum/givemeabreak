@@ -82,8 +82,12 @@
       width:100%;
       text-align: center;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> de20ee87e349cbcaf9e3c444adea6bafa691a99c
 
+  
   .button {
     /* To position the buttons to the same position of the text fields */
     padding-left: 90px; /* same size as the label elements */
@@ -216,6 +220,20 @@ h1 {
   position: relative;
   text-align: center;
   background-color: none;
+<<<<<<< HEAD
+}
+
+/* Style for the overlay images with text */
+.container3 {
+  display: relative;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+
+
+>>>>>>> de20ee87e349cbcaf9e3c444adea6bafa691a99c
+=======
 }
 
 /* Style for the overlay images with text */
