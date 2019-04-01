@@ -1,0 +1,64 @@
+<script>
+var i = 0; // Start point
+var images = [];
+var time = 3000
+
+ // Image List
+ images[0] = 'eggstip.jpg';
+ images[1] = 'facbook.jpg';
+ images[2] = 'keyrind.jpg';
+ images[3] = 'proofreading.jpg';
+ images[4] = 'selfie.jpg';
+ images[5] = 'youtube.jpg';
+
+ //Change Image
+ function changeImg(){
+  document.slide.src = images[i];
+
+  if(i < image.length - 1){
+    i++;
+  } else {
+    i = 0;
+  }
+  setTimeout("changeImg()", time);
+ }
+
+ window.onload = changeImg;
+</script>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Give Me a Break</title>
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <div class="topnav">
+  <ul>
+    <li><img src="logo.png" alt="Give Me a Break Logo" width="100px"><li>
+    <a class="active" href="#home">Home</a>
+    <li><a href="about.html">About</a></li>
+    <li><a href="submit.html">Submit A Hack</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+</div>
+
+  </br>
+  </br>
+    </div>
+    <div class="options">
+      <img name="slide" width="400" height="200"
+      <div class="icons">
+      <img src="./lifehacks.jpeg" alt="some eggs" width="200px" id="hack">
+      <img src="./getintouch.jpeg" alt="Submit a hack" width="200px" id="contact">
+      <img src="./procrastination.jpeg" alt="Submit a hack" width="200px" id="procrastinate">
+    </div>
+
+  </body>
+</html>
