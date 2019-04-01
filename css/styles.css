@@ -163,4 +163,10 @@
   padding-top: 0;
   display: inline-block;
 }
+
+/* Style for the about page */
+.container {
+       position:relative;
+       text-align: center;
+}
     </style>
