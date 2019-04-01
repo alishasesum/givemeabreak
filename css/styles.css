@@ -97,14 +97,16 @@
   button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
-    margin-left: .5em;
+
+  position:relative;
+    left:27%;
     background-color: white;
     color: green;
     border: 3px solid #ffe497;
     padding: 15px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+
     font-size: 16px;
   }
 
