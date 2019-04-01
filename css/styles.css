@@ -237,6 +237,7 @@
 
 /* Style for the overlay images with text */
 .container3 img{
+  position: relative;
   display: flex;
   justify-content:center;
   justify-content: space-between;
@@ -246,5 +247,28 @@
   float: left;
 }
 
+
+.image_Bianca img{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50;
+  right: 0;
+  height: 50%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.container3 .image_Bianca:hover .overlay {
+  opacity: 1;
+}
 
     </style>
