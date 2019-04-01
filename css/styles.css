@@ -217,17 +217,20 @@ h1 {
 }
 
 =======
-.container2 {
-  position: relative;
+.container2 h2{
   text-align: center;
-  background-color: none;
+
 }
 
 /* Style for the overlay images with text */
-.container3 {
-  display: relative;
-  justify-content: center;
-  justify-content: space-around;
+.container3 img{
+  display: flex;
+  justify-content:center;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 150px;
+  float: left;
 }
 
 
