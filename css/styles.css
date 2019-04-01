@@ -277,7 +277,16 @@
   opacity: 2;
 }
 
-
+.container3 img{
+  position: relative;
+  display: flex;
+  justify-content:center;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 200px;
+  float: left;
+}
 
 
     </style>
