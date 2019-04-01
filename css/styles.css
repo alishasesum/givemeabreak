@@ -115,7 +115,7 @@
       display: inline;
     }
 
-  .icons img {
+  /* .icons img {
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -124,7 +124,7 @@
     border-radius: 200px;
     float: left;
 
-  }
+  } */
 
   .options h2 {
     display: inline-block;
@@ -138,7 +138,7 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -432,6 +432,7 @@
   justify-content: center;
 }
 
+/* header image css*/
 .header img{
   display: flex;
   align-items: center;
