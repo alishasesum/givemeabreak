@@ -34,14 +34,14 @@
 </div>
   <form action="/my-handling-form-page" method="post">
     <div>
-      <label for="mail">E-mail:</label>
+      <label class="user_mail" for="mail">E-mail:</label>
       <input type="email" id="mail" name="user_mail">
     </div>
 
 
     <div>
-      <label for="name">Name:</label>
-      <input type="text" id="nickname" name="user_name">
+      <label class="user_name" for="name">Name:</label>
+      <input type="text" id="name" name="user_name">
     </div>
 
 
@@ -52,19 +52,52 @@
 
     </div>
 
-    <div style> <p1>
-    <input type="checkbox" name="cat1" value="study">study<br>
-    <input type="checkbox" name="cat2" value="work">work stuff<br>
-    <input type="checkbox" name="cat3" value="cooking">cooking<br>
-    <input type="checkbox" name="cat4" value="makeup">make-up<br>
-    <input type="checkbox" name="cat5" value="decor">decor<br>
-    <input type="checkbox" name="cat6" value="sports">sports<br>
-    <input type="checkbox" name="cat7" value="health">health<br>
-    <input type="checkbox" name="cat8" value="diy">DIY<br>
-  </p1></div>
+    <div class="flex-container">
+         <div class="flex-child">
+             <div class="form-group">
+                 <input class="checkbox-input" type="checkbox" name="cat1" value="">
+                 <label class="form-label" for="cat1">Study</label>
+             </div>
 
-    <div>
-      <label for="msg">Tip:</label>
+             <div class="form-group">
+                 <input class="checkbox-input" type="checkbox" name="cat2" value="">
+                 <label class="form-label" for="cat2">Work</label>
+             </div>
+
+             <div class="form-group">
+                 <input class="checkbox-input" type="checkbox" name="cat3" value="">
+                 <label class="form-label" for="cat3">Cooking</label>
+             </div>
+
+             <div class="form-group">
+                 <input class="checkbox-input" type="checkbox" name="cat4" value="">
+                 <label class="form-label" for="cat4">Make-up</label>
+             </div>
+
+             <div class="form-group">
+                 <input class="checkbox-input" type="checkbox" name="cat5" value="">
+                 <label class="form-label" for="cat5">Decor</label>
+             </div>
+
+             <div class="form-group">
+                 <input class="checkbox-input" type="checkbox" name="cat6" value="">
+                 <label class="form-label" for="cat6">Sports</label>
+             </div>
+
+             <div class="form-group">
+                 <input class="checkbox-input" type="checkbox" name="cat7" value="">
+                 <label class="form-label" for="cat7">Health</label>
+             </div>
+
+             <div class="form-group">
+                 <input class="checkbox-input" type="checkbox" name="cat8" value="">
+                 <label class="form-label" for="cat8">DIY</label>
+             </div>
+         </div>
+     </div>
+
+     <div>
+      <label class="user_message" for="msg">Tip:</label>
       <textarea id="msg" name="user_message"></textarea>
     </div>
 
