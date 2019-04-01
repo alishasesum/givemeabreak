@@ -62,7 +62,28 @@
     /* To give enough room to type some text */
     height: 5em;
   }
+  .form-label {
+      text-align:left;
+      width: 20%
+    }
 
+    .checkbox-input {
+      width:10%;
+    }
+
+    .flex-container {
+      display:flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .flex-child{
+      width:100%;
+      text-align: center;
+    }
+
+  
   .button {
     /* To position the buttons to the same position of the text fields */
     padding-left: 90px; /* same size as the label elements */
