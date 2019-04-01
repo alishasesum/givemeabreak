@@ -166,7 +166,22 @@
 
 /* Style for the about page */
 .container {
-       position:relative;
-       text-align: center;
+   position:relative;
+   text-align: center;
 }
+
+.text-block {
+  position: absolute;
+  bottom:400px;
+  right: 60px;
+  background-color: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white
+}
+
+h1 {
+  text-decoration: underline;
+}
+
     </style>
