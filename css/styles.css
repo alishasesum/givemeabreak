@@ -109,6 +109,11 @@
   .intro h1 {
     display: flex;
     justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
   }
 
   .centered {
@@ -146,6 +151,7 @@
     margin-bottom: 10px;
   }
 
+/*this is to style the button when it has been clicked*/
 .active {
   background-color: #a5e497;
   color: white;
