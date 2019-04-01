@@ -230,45 +230,54 @@
 
 =======
 
-.container2 h2 {
-  position: fixed;
+.container h2{
+  position: absolute;
+  display: flex;
   justify-content: center;
 }
 
 /* Style for the overlay images with text */
-.container3 img{
+{box-sizing: border-box;}
+
+.container2 img{
   position: relative;
   display: flex;
   justify-content:center;
   justify-content: space-between;
   padding: 30px;
   margin: 0 auto;
-  border-radius: 150px;
+  border-radius: 200px;
   float: left;
 }
 
-
-.image_Bianca img{
-  display: flex;
+.image_Bianca {
+  display: block;
   width: 100%;
   height: auto;
 }
 
-.overlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50;
-  right: 0;
-  height: 50%;
-  width: 50%;
-  opacity: 0;
+.overlay {
+  position: fixed;
+  bottom: 50;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 20%;
   transition: .5s ease;
-  background-color: black;
+  opacity:0;
+  color: white;
+  font-size: 25px;
+  padding: 30px;
+  margin: inherit;
+  border-radius: 200px;
+  text-align: center;
 }
 
-.container3 .image_Bianca:hover .overlay {
-  opacity: 1;
+.container2:hover .overlay {
+  opacity: 2;
 }
+
+
+
 
     </style>
