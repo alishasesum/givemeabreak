@@ -289,7 +289,6 @@
 }
 
 
-<<<<<<< HEAD
 /*image 1 overlay*/
 .lifehack {
   position: relative;
@@ -300,6 +299,7 @@
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 50%;
 }
 
 .overlay {
@@ -427,12 +427,16 @@
 .column {
   width: 33.33%;
   padding: 2px;
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
 }
 
+.header img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-=======
->>>>>>> 0d4e1883cfafd2708b798024132d84f87c5db6d7
+}
+
     </style>
